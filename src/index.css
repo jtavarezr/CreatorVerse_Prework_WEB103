@@ -1,0 +1,58 @@
+
+
+/* Estilo para el contenedor principal */
+.show-creators-container {
+  background-color: #000;
+  /* Fondo negro */
+  color: #fff;
+  /* Texto blanco */
+  min-height: 100vh;
+  width: 100vw;
+  /* Ocupa todo el ancho de la ventana */
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilo para el header con una imagen de fondo */
+.show-creators-header {
+  width: 100%;
+  max-width: 1200px;
+  background-image: url('https://images.unsplash.com/photo-1723687107501-27f09ef2017e?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');  /* Ruta de la imagen de header */
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+/* Título del header */
+.show-creators-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.ShowCreators{
+  display: flex;
+  flex-direction: row;
+}
+
+.description{
+  
+  color: #fff;
+  font-size: small;
+}
+.creator-name{
+  color: #fff;
+  font-size: 1.5rem;
+}
+.social-icons{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 0%;
+  padding-top: 0%;
+}
